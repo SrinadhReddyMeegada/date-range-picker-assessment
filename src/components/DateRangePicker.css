@@ -1,0 +1,51 @@
+
+
+.month {
+  margin-right: 20px;
+}
+.calendar-row{
+    display: flex;
+}
+.days-in-week {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.weekday {
+  padding: 5px;
+}
+
+.days-in-month {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.weekend {
+  background-color: #f9caca;
+}
+
+.empty {
+  visibility: hidden;
+}
+.apply_button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+}
+.year_select{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0 10px;
+}
